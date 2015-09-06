@@ -1,0 +1,53 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable bar-dark">
+      <h1 class="title">Left</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item class="item-icon-left item-icon-right" menu-close  ng-click="logout()">
+
+          <h2>注销</h2>
+          <i class="icon ion-document-text"></i>
+          <i class="icon ion-ios-arrow-forward"></i>
+
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" menu-close href="#/app/emergency">
+
+          <h2>急救</h2>
+          <i class="icon ion-ios-bolt"></i>
+          <i class="icon ion-ios-arrow-forward"></i>
+
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" menu-close href="#/app/office">
+          <h2>办公</h2>
+          <i class="icon ion-laptop"></i>
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" menu-close href="#/app/sickroom">
+          <h2>病房</h2>
+          <i class="icon ion-ios-home-outline"></i>
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" menu-close href="#/app/outpatient">
+          <h2>门诊</h2>
+          <i class="icon ion-medkit"></i>
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
