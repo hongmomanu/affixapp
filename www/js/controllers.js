@@ -37,6 +37,7 @@ angular.module('starter.controllers', [])
 
     $scope.show=function(type){
         alert(1);
+      console.log(type);
     };
 
     // Open the logout modal
