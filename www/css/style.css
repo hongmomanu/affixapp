@@ -1,1 +1,26 @@
 /* Empty. Add your own CSS if you like */
+.col{
+  text-align:center;
+}
+.col img{
+  width:80px;
+  height:80px;
+}
+.gridnavicon{
+
+  font-size:80px;
+}
+
+.fb-up {
+  background : blue;
+  color : white;
+  border :none;
+  padding : 10px 25px;
+}
+
+.fb-down {
+  background : black;
+  color : white;
+  border :none;
+  padding : 10px 25px;
+}
